@@ -1,0 +1,12 @@
+int main(void)
+{
+
+	// Demo 1 (cont.): Programa principal para probar la función del la demo 1
+	int vector[MAX] = { 1, 4, 3, 3, 6, 10, 4, 6, 3, 7 };
+	int cont = ContarPares(vector);
+	if (cont != -1)
+		printf("El numero de pares antes del primer 1o es :%d\n", cont);
+	else
+		printf("No hay ningun 10 en el vector\n");
+
+}
